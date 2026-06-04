@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">ParaBank Senior QA Automation Suite</th></tr>
+<tr><td><a href="#t0">ParaBank POM Regression Tests</a></td><td class="num">25</td><td class="num attn">4</td><td class="num">0</td><td class="num attn">7</td><td class="num">537,856</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ParaBank Senior QA Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ParaBank POM Regression Tests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.TransferFundsTests</td><td><a href="#m0">prep</a></td><td rowspan="1">1780585519310</td><td rowspan="1">34712</td></tr><tr><th colspan="4">ParaBank POM Regression Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.BillPayTests</td><td><a href="#m1">validBillPay</a></td><td rowspan="1">1780585714771</td><td rowspan="1">1388</td></tr><tr class="failedodd"><td rowspan="1">tests.EndToEndWorkflowTests</td><td><a href="#m2">coreWorkflow</a></td><td rowspan="1">1780585848432</td><td rowspan="1">5396</td></tr><tr class="failedeven"><td rowspan="2">tests.LoginLogoutTests</td><td><a href="#m3">backAfterLogout</a></td><td rowspan="1">1780585378842</td><td rowspan="1">3231</td></tr><tr class="failedeven"><td><a href="#m4">sqlInjectionLogin</a></td><td rowspan="1">1780585438848</td><td rowspan="1">33390</td></tr><tr class="failedodd"><td rowspan="1">tests.RegistrationTests</td><td><a href="#m5">duplicateUsername</a></td><td rowspan="1">1780585321952</td><td rowspan="1">35291</td></tr><tr class="failedeven"><td rowspan="1">tests.RequestLoanTests</td><td><a href="#m6">validLoan</a></td><td rowspan="1">1780585726824</td><td rowspan="1">732</td></tr><tr class="failedodd"><td rowspan="1">tests.SecurityValidationTests</td><td><a href="#m7">longInput</a></td><td rowspan="1">1780585771978</td><td rowspan="1">67226</td></tr><tr><th colspan="4">ParaBank POM Regression Tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">tests.TransferFundsTests</td><td><a href="#m8">emptyAmount</a></td><td rowspan="1">1780585554022</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m9">negativeAmount</a></td><td rowspan="1">1780585566614</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m10">nonNumericAmount</a></td><td rowspan="1">1780585575655</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m11">validTransfer</a></td><td rowspan="1">1780585584263</td><td rowspan="1">0</td></tr><tr><th colspan="4">ParaBank POM Regression Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">tests.AccountTests</td><td><a href="#m12">accountDetails</a></td><td rowspan="1">1780585479545</td><td rowspan="1">2779</td></tr><tr class="passedeven"><td><a href="#m13">newAccountInOverview</a></td><td rowspan="1">1780585484790</td><td rowspan="1">7540</td></tr><tr class="passedeven"><td><a href="#m14">openChecking</a></td><td rowspan="1">1780585500029</td><td rowspan="1">3178</td></tr><tr class="passedeven"><td><a href="#m15">openSavings</a></td><td rowspan="1">1780585506101</td><td rowspan="1">3833</td></tr><tr class="passedeven"><td><a href="#m16">overviewDisplaysAccounts</a></td><td rowspan="1">1780585512777</td><td rowspan="1">3050</td></tr><tr class="passedodd"><td rowspan="4">tests.BillPayTests</td><td><a href="#m17">emptyBillPay</a></td><td rowspan="1">1780585593352</td><td rowspan="1">1551</td></tr><tr class="passedodd"><td><a href="#m18">invalidZip</a></td><td rowspan="1">1780585600877</td><td rowspan="1">32366</td></tr><tr class="passedodd"><td><a href="#m19">mismatchAccount</a></td><td rowspan="1">1780585640001</td><td rowspan="1">32141</td></tr><tr class="passedodd"><td><a href="#m20">negativeAmount</a></td><td rowspan="1">1780585677900</td><td rowspan="1">32303</td></tr><tr class="passedeven"><td rowspan="4">tests.ContactAndNavigationTests</td><td><a href="#m21">contactInvalidEmail</a></td><td rowspan="1">1780585730536</td><td rowspan="1">1129</td></tr><tr class="passedeven"><td><a href="#m22">contactValid</a></td><td rowspan="1">1780585734752</td><td rowspan="1">1457</td></tr><tr class="passedeven"><td><a href="#m23">menuLinks</a></td><td rowspan="1">1780585739155</td><td rowspan="1">13070</td></tr><tr class="passedeven"><td><a href="#m24">refreshSession</a></td><td rowspan="1">1780585757662</td><td rowspan="1">2533</td></tr><tr class="passedodd"><td rowspan="4">tests.LoginLogoutTests</td><td><a href="#m25">emptyLogin</a></td><td rowspan="1">1780585384843</td><td rowspan="1">872</td></tr><tr class="passedodd"><td><a href="#m26">invalidPassword</a></td><td rowspan="1">1780585388359</td><td rowspan="1">3336</td></tr><tr class="passedodd"><td><a href="#m27">logout</a></td><td rowspan="1">1780585397064</td><td rowspan="1">36689</td></tr><tr class="passedodd"><td><a href="#m28">validLogin</a></td><td rowspan="1">1780585475150</td><td rowspan="1">1989</td></tr><tr class="passedeven"><td rowspan="4">tests.RegistrationTests</td><td><a href="#m29">emptyRegistration</a></td><td rowspan="1">1780585360085</td><td rowspan="1">1131</td></tr><tr class="passedeven"><td><a href="#m30">invalidPhoneValidation</a></td><td rowspan="1">1780585364054</td><td rowspan="1">1988</td></tr><tr class="passedeven"><td><a href="#m31">passwordMismatch</a></td><td rowspan="1">1780585368729</td><td rowspan="1">2116</td></tr><tr class="passedeven"><td><a href="#m32">validRegistration</a></td><td rowspan="1">1780585373797</td><td rowspan="1">2036</td></tr><tr class="passedodd"><td rowspan="1">tests.RequestLoanTests</td><td><a href="#m33">emptyLoan</a></td><td rowspan="1">1780585721315</td><td rowspan="1">823</td></tr><tr class="passedeven"><td rowspan="3">tests.SecurityValidationTests</td><td><a href="#m34">credentialSpaces</a></td><td rowspan="1">1780585763605</td><td rowspan="1">5432</td></tr><tr class="passedeven"><td><a href="#m35">passwordMasked</a></td><td rowspan="1">1780585842005</td><td rowspan="1">18</td></tr><tr class="passedeven"><td><a href="#m36">unauthorizedTransfer</a></td><td rowspan="1">1780585844971</td><td rowspan="1">884</td></tr></tbody>
+</table>
+<h2>ParaBank POM Regression Tests</h2><h3 id="m0">tests.TransferFundsTests#prep</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: Open New Account (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\khateb\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3336}, goog:processID: 19480, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3336/devtool..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e1f11c2e07858ed405509164d1c755a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.BasePage.clickable(BasePage.java:37)
+	at pages.BasePage.click(BasePage.java:46)
+	at pages.HomePage.goToOpenNewAccount(HomePage.java:109)
+	at tests.TransferFundsTests.prep(TransferFundsTests.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.BillPayTests#validBillPay</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Bill payment should be completed successfully. expected [true] but found [false]
+	at tests.BillPayTests.validBillPay(BillPayTests.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.EndToEndWorkflowTests#coreWorkflow</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Bill payment should be completed successfully. expected [true] but found [false]
+	at tests.EndToEndWorkflowTests.coreWorkflow(EndToEndWorkflowTests.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.LoginLogoutTests#backAfterLogout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User should not access protected pages after logout. expected [false] but found [true]
+	at tests.LoginLogoutTests.backAfterLogout(LoginLogoutTests.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.LoginLogoutTests#sqlInjectionLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: SQL injection-like input should not authenticate the user. expected [true] but found [false]
+	at tests.LoginLogoutTests.sqlInjectionLogin(LoginLogoutTests.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.RegistrationTests#duplicateUsername</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: Register (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\khateb\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9100}, goog:processID: 11644, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9100/devtool..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ea510f836e363d0c462b5421aa99622
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.BasePage.clickable(BasePage.java:37)
+	at pages.BasePage.click(BasePage.java:46)
+	at pages.HomePage.clickRegister(HomePage.java:53)
+	at tests.RegistrationTests.duplicateUsername(RegistrationTests.java:109)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.RequestLoanTests#validLoan</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Loan request result should be displayed. expected [true] but found [false]
+	at tests.RequestLoanTests.validLoan(RequestLoanTests.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.SecurityValidationTests#longInput</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: System should handle long input without crashing. expected [true] but found [false]
+	at tests.SecurityValidationTests.longInput(SecurityValidationTests.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.TransferFundsTests#emptyAmount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: Open New Account (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\khateb\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3336}, goog:processID: 19480, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3336/devtool..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e1f11c2e07858ed405509164d1c755a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.BasePage.clickable(BasePage.java:37)
+	at pages.BasePage.click(BasePage.java:46)
+	at pages.HomePage.goToOpenNewAccount(HomePage.java:109)
+	at tests.TransferFundsTests.prep(TransferFundsTests.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.TransferFundsTests#negativeAmount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: Open New Account (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\khateb\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3336}, goog:processID: 19480, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3336/devtool..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e1f11c2e07858ed405509164d1c755a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.BasePage.clickable(BasePage.java:37)
+	at pages.BasePage.click(BasePage.java:46)
+	at pages.HomePage.goToOpenNewAccount(HomePage.java:109)
+	at tests.TransferFundsTests.prep(TransferFundsTests.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.TransferFundsTests#nonNumericAmount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: Open New Account (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\khateb\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3336}, goog:processID: 19480, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3336/devtool..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e1f11c2e07858ed405509164d1c755a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.BasePage.clickable(BasePage.java:37)
+	at pages.BasePage.click(BasePage.java:46)
+	at pages.HomePage.goToOpenNewAccount(HomePage.java:109)
+	at tests.TransferFundsTests.prep(TransferFundsTests.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.TransferFundsTests#validTransfer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: Open New Account (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\khateb\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3336}, goog:processID: 19480, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3336/devtool..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e1f11c2e07858ed405509164d1c755a6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.BasePage.clickable(BasePage.java:37)
+	at pages.BasePage.click(BasePage.java:46)
+	at pages.HomePage.goToOpenNewAccount(HomePage.java:109)
+	at tests.TransferFundsTests.prep(TransferFundsTests.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.AccountTests#accountDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.AccountTests#newAccountInOverview</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">tests.AccountTests#openChecking</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">tests.AccountTests#openSavings</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">tests.AccountTests#overviewDisplaysAccounts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">tests.BillPayTests#emptyBillPay</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">tests.BillPayTests#invalidZip</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">tests.BillPayTests#mismatchAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">tests.BillPayTests#negativeAmount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">tests.ContactAndNavigationTests#contactInvalidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">tests.ContactAndNavigationTests#contactValid</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">tests.ContactAndNavigationTests#menuLinks</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">tests.ContactAndNavigationTests#refreshSession</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">tests.LoginLogoutTests#emptyLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">tests.LoginLogoutTests#invalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">tests.LoginLogoutTests#logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">tests.LoginLogoutTests#validLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">tests.RegistrationTests#emptyRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">tests.RegistrationTests#invalidPhoneValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">tests.RegistrationTests#passwordMismatch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">tests.RegistrationTests#validRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">tests.RequestLoanTests#emptyLoan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">tests.SecurityValidationTests#credentialSpaces</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">tests.SecurityValidationTests#passwordMasked</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">tests.SecurityValidationTests#unauthorizedTransfer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

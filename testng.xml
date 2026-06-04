@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParaBank Senior QA Automation Suite" verbose="1" parallel="false">
+  <parameter name="browser" value="chrome"/>
+  <test name="ParaBank POM Regression Tests">
+    <classes>
+      <class name="tests.RegistrationTests"/>
+      <class name="tests.LoginLogoutTests"/>
+      <class name="tests.AccountTests"/>
+      <class name="tests.TransferFundsTests"/>
+      <class name="tests.BillPayTests"/>
+      <class name="tests.RequestLoanTests"/>
+      <class name="tests.ContactAndNavigationTests"/>
+      <class name="tests.SecurityValidationTests"/>
+      <class name="tests.EndToEndWorkflowTests"/>
+    </classes>
+  </test>
+</suite>

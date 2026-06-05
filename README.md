@@ -120,11 +120,11 @@ parabank-qa-automation-project
 
 | Metric                     | Value |
 | -------------------------- | ----- |
-| Total Automated Test Cases | 37    |
+| Total Automated Test Cases | 36    |
 | Passed Tests               | 29    |
-| Failed Tests               | 8     |
-| Skipped Tests              | 4     |
-| Reported Bugs              | 8     |
+| Failed Tests               | 7     |
+| Skipped Tests              | 0     |
+| Reported Bugs              | 7     |
 
 ---
 

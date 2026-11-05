@@ -1,10 +1,10 @@
-# 🏦 ParaBank QA Automation Project
+#  ParaBank QA Automation Project
 
 Professional QA Automation Framework for the ParaBank Demo Banking Application.
 
 ---
 
-# 📌 Overview
+#  Overview
 
 This project is a complete end-to-end QA Automation framework developed for the ParaBank banking web application.
 
@@ -31,7 +31,7 @@ The project focuses on validating critical banking workflows, security validatio
 
 ---
 
-# 🧠 Automation Scope
+#  Automation Scope
 
 The framework automates major banking functionalities including:
 
@@ -103,7 +103,7 @@ parabank-qa-automation-project
 
 ---
 
-# ⚙️ Framework Features
+#  Framework Features
 
 * Professional POM Architecture
 * Reusable Utility Classes
@@ -116,7 +116,7 @@ parabank-qa-automation-project
 
 ---
 
-# 🧪 Test Execution Summary
+# Test Execution Summary
 
 | Metric                     | Value |
 | -------------------------- | ----- |
@@ -128,7 +128,7 @@ parabank-qa-automation-project
 
 ---
 
-# 🐞 Reported Bugs
+# Reported Bugs
 
 The automation process successfully identified multiple functional and security-related defects including:
 
@@ -143,7 +143,7 @@ Detailed bug reports are included in the project documentation.
 
 ---
 
-# 📸 Screenshots & Reports
+# Screenshots & Reports
 
 The framework automatically captures screenshots for failed test cases.
 
@@ -156,7 +156,7 @@ Generated artifacts include:
 
 ---
 
-# ▶️ How To Run
+# How To Run
 
 ## Clone Repository
 
@@ -178,7 +178,7 @@ mvn clean test
 
 ---
 
-# 📖 Documentation
+# Documentation
 
 The project includes:
 
@@ -188,9 +188,7 @@ The project includes:
 * RTM (Requirement Traceability Matrix)
 * Bug Report
 
----
 
-# 👨‍💻 Author
 
 Mohammed AlSwesy
 
